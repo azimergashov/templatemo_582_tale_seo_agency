@@ -2128,10 +2128,14 @@ body {
   }
 }
 
-@media(max-width: 578px) {
+@media(max-width: 579px) {
   .page-heading img {
     margin-top: 45px;
+    margin-right: 0px;
     max-width: 500px !important;
+  }
+  .row{
+    max-width: 500px;
   }
 }
 @media(max-width: 500px) {
@@ -2139,16 +2143,25 @@ body {
     margin-top: 45px;
     max-width: 400px !important;
   }
+  .row{
+    max-width: 450px;
+  }
 }
 @media(max-width: 390px) {
   .page-heading img {
     margin-top: 45px;
     max-width: 350px !important;
   }
+  .row{
+    max-width: 350px;
+  }
 }
 @media(max-width: 350px) {
   .page-heading img {
     margin-top: 45px;
     max-width: 300px !important;
+  }
+  .row{
+    max-width: 300px;
   }
 }
