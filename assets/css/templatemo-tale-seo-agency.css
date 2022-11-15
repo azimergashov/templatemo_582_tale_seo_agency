@@ -2147,7 +2147,14 @@ body {
     max-width: 450px;
   }
 }
-@media(max-width: 390px) {
+@media(max-width: 439px) {
+  .page-heading img {
+    margin-top: 45px;
+    max-width: 380px !important;
+  }
+
+}
+@media(max-width: 393px) {
   .page-heading img {
     margin-top: 45px;
     max-width: 350px !important;
