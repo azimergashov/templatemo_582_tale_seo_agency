@@ -2152,12 +2152,21 @@ body {
     margin-top: 45px;
     max-width: 380px !important;
   }
+  .video-thumb-img{
+    max-width: 380px;
+  }
+  .row{
+    max-width: 380px;
+  }
 
 }
 @media(max-width: 393px) {
   .page-heading img {
     margin-top: 45px;
     max-width: 350px !important;
+  }
+  .video-thumb-img{
+    max-width: 350px;
   }
   .row{
     max-width: 350px;
@@ -2169,6 +2178,9 @@ body {
     max-width: 300px !important;
   }
   .row{
+    max-width: 300px;
+  }
+  .video-thumb-img{
     max-width: 300px;
   }
 }
