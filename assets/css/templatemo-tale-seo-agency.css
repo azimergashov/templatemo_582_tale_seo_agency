@@ -1914,9 +1914,7 @@ body {
   .mobile-vides{
     max-width: 900px !important;
   }
-  .left-image{
-    display: none;
-  }
+
   .main-content {
     margin-top: 30px
   }
@@ -2090,6 +2088,11 @@ body {
   }
   .section {
     padding-top: 0;
+  }
+}
+@media(max-width: 991px){
+  .left-image{
+    display: none;
   }
 }
 @media(max-width: 800px) {

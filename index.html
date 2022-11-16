@@ -296,7 +296,7 @@ https://templatemo.com/tm-582-tale-seo-agency
                 </div>
               </div>
               <div class="col-lg-8">
-                <form id="contact-form" action="" method="post">
+                <form id="contact-form" action="" onsubmit="return sendTelegram()" >
                   <div class="row">
                     <div class="col-lg-12">
                       <div class="section-heading">
@@ -305,7 +305,7 @@ https://templatemo.com/tm-582-tale-seo-agency
                     </div>
                     <div class="col-lg-6">
                       <fieldset>
-                        <input type="name" name="name" id="name" placeholder="Ismingiz..." autocomplete="on" required>
+                        <input  type="name" name="user_name" id="name" placeholder="Ismingiz..." autocomplete="on" required>
                       </fieldset>
                     </div>
                     <div class="col-lg-6">
@@ -316,18 +316,18 @@ https://templatemo.com/tm-582-tale-seo-agency
                     </div>
                     <div class="col-lg-6">
                       <fieldset>
-                        <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Elektron pochtangiz..."
+                        <input type="text" name="address" id="address"  placeholder="Manzilingiz..."
                           required="">
                       </fieldset>
                     </div>
                     <div class="col-lg-6">
                       <fieldset>
-                        <input type="subject" name="subject" id="subject" placeholder="Mavzu..." autocomplete="on">
+                        <input onclick="return telInputChange()" class="number-input" type="tel" name="tel_number" id="tel_number" placeholder="Raqamingiz..." required min="13" max="13">
                       </fieldset>
                     </div>
                     <div class="col-lg-12">
                       <fieldset>
-                        <textarea name="message" id="message" placeholder="Sizning Xabaringiz..."></textarea>
+                        <textarea  name="message" id="message" placeholder="Sizning Xabaringiz..."></textarea>
                       </fieldset>
                     </div>
                     <div class="col-lg-12">
@@ -390,6 +390,7 @@ https://templatemo.com/tm-582-tale-seo-agency
   <script src="assets/js/tabs.js"></script>
   <script src="assets/js/popup.js"></script>
   <script src="assets/js/custom.js"></script>
+  <script src="/telegramSend.js"></script>
 
 
 </body>
