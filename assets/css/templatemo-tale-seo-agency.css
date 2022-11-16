@@ -1914,6 +1914,12 @@ body {
   .mobile-vides{
     max-width: 900px !important;
   }
+  .left-image{
+    display: none;
+  }
+  .main-content {
+    margin-top: 30px
+  }
 
 }
 @media (max-width: 992px) {
