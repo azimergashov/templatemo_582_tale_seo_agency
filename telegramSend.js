@@ -11,11 +11,11 @@ var telInputChange = function () {
 var name, surname, address, tel_number, u_message, message;
 var getValues = function () {
 
-    u_name = document.getElementById('user_name')
-    surname = document.getElementById('surname')
-    address = document.getElementById('address')
-    tel_number = document.getElementById('tel_number')
-    u_message = document.getElementById('message')
+    u_name = document.getElementById('user_name').value
+    surname = document.getElementById('surname').value
+    address = document.getElementById('address').value
+    tel_number = document.getElementById('tel_number').value
+    u_message = document.getElementById('message').value
     message = "Ismi: " + u_name + "\nFamiliya: " + surname + "\nManzil: " + address + '\ntel-raqami:' + tel_number, '\nIzoh:' + u_message;
 }
 
@@ -41,7 +41,7 @@ var sendTelegram = function () {
     $.ajax(settings).done(function(response) {
         console.log(response);
     });
-    document.getElementById("name").value = "";
+    document.getElementById("user_name").value = "";
     document.getElementById("surname").value = "";
     document.getElementById("address").value = "";
     document.getElementById("tel_number").value = "";
