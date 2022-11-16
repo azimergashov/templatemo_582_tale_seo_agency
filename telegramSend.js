@@ -1,14 +1,14 @@
 
-const  telegram_bot_id = "5570784931:AAHAk5u0j9bqSIYGP3L1GjOsTUylRwnDDH8"
+var  telegram_bot_id = "5570784931:AAHAk5u0j9bqSIYGP3L1GjOsTUylRwnDDH8"
 
-const chat_id = -1001502748774
+var chat_id = -1001502748774
 
-const telInput = document.querySelector('.number-input')
+var telInput = document.querySelector('.number-input')
 
-const telInputChange = function () {
+var telInputChange = function () {
     telInput.value = '+998 '
 }
-var name, surname, address, tel_number, u_message, message
+var name, surname, address, tel_number, u_message, message;
 var getValues = function () {
 
     u_name = document.getElementById('user_name')
