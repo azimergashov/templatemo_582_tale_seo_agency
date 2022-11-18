@@ -461,7 +461,6 @@ Header Style
 
 .header-area .main-nav .nav li.has-sub:after {
   font-family: FontAwesome;
-  content: "\f107";
   font-size: 12px;
   color: #fff;
   position: absolute;
@@ -765,7 +764,6 @@ Header Style
   }
   .header-area .main-nav .nav li.has-sub:after {
     color: #3B566E;
-    right: 30px;
     font-size: 14px;
     top: 15px;
   }
@@ -1841,7 +1839,7 @@ body {
 }
 @media (max-width: 1400px) {
   .nav{
-    margin-left: 200px;
+    margin-left: auto;
   }
   .mobile-vides{
     max-width: 1400px !important;
@@ -1889,9 +1887,9 @@ body {
     top: 60%;
     transform: translateY(-50%);
   }
-  .nav{
-    margin-left: 200px;
-  }
+  /* .nav{
+    margin-left: auto;
+  } */
 
   .mobile-vides{
     max-width: 1150px !important;
