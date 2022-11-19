@@ -2058,12 +2058,12 @@ body {
   .header-area .main-nav .nav li a{
     padding: 0 !important;
 
-
   }
   .header-area .main-nav .nav li a {
     color: #000 !important;
     margin: 0 auto !important;
   }
+
   .header-area .main-nav .nav li.has-sub ul.sub-menu {
     display: none !important;
   }
